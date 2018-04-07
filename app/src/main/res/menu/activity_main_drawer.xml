@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_inbox"
+            android:icon="@drawable/inbox"
+            android:title="Inbox"/>
+    </group>
+
+    <item android:title="All labels">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_starred"
+                    android:icon="@drawable/star"
+                    android:title="Starred" />
+                <item
+                    android:id="@+id/action_important"
+                    android:icon="@drawable/important"
+                    android:title="Important" />
+                <item
+                    android:id="@+id/action_sent"
+                    android:icon="@drawable/send"
+                    android:title="Sent" />
+                <item
+                    android:id="@+id/action_outbox"
+                    android:icon="@drawable/outbox"
+                    android:title="Outbox" />
+                <item
+                    android:id="@+id/action_drafts"
+                    android:icon="@drawable/drafts"
+                    android:title="Drafts" />
+                <item
+                    android:id="@+id/action_all_mail"
+                    android:icon="@drawable/all_mail"
+                    android:title="All Mail" />
+                <item
+                    android:id="@+id/action_spam"
+                    android:icon="@drawable/spam"
+                    android:title="Spam" />
+                <item
+                    android:id="@+id/action_bin"
+                    android:icon="@drawable/bin"
+                    android:title="Bin" />
+                <item
+                    android:id="@+id/action_personal"
+                    android:icon="@drawable/label"
+                    android:title="Personal" />
+                <item
+                    android:id="@+id/action_receipts"
+                    android:icon="@drawable/label"
+                    android:title="Receipts" />
+                <item
+                    android:id="@+id/action_travel"
+                    android:icon="@drawable/label"
+                    android:title="Travel" />
+                <item
+                    android:id="@+id/action_work"
+                    android:icon="@drawable/label"
+                    android:title="Work" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Google Apps">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_calendar"
+                    android:icon="@drawable/calendar"
+                    android:title="Calendar" />
+                <item
+                    android:id="@+id/action_contacts"
+                    android:icon="@drawable/contacts"
+                    android:title="Contacts" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Others.....">
+        <menu>
+            <item android:id="@+id/action_settings"
+                android:icon="@drawable/settings"
+                android:title="Settings"/>
+
+            <item android:id="@+id/action_help_and_feedback"
+                android:icon="@drawable/help_and_feedback"
+                android:title="Help and feedback"/>
+        </menu>
+    </item>
+
+</menu>
